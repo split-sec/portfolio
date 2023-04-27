@@ -5,12 +5,12 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      backdropFilter: {
-        'none': 'none',
-        'blur': 'blur(20px)',
-      },
       fontFamily : {
         inter: "'Inter', sans-serif"
+      },
+      fontSize : {
+        "xxs": "0.65rem", 
+        "xxxs": "0.6rem",
       },
       height : {
         "100v": "100vh",
