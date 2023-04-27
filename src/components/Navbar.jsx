@@ -18,7 +18,7 @@ export default function Navbar({theme, setTheme}) {
     }
 
     return (
-        <div className="max-w p-2 md:px-6 md:py-3 bg-white bg-opacity-80 backdrop-filter backdrop-blur-sm 
+        <div className="max-w p-2 md:px-6 md:py-3 bg-white bg-opacity-60 backdrop-filter backdrop-blur-sm 
             sticky top-0 text-xl flex justify-between items-center z-10">
             <Link to='/'>
                 <img src={sv} className='h-12 w-12'/>

@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar theme={theme} setTheme={setTheme}/>
-      <BodySection />
+      <BodySection theme={theme}/>
       <ProjectsSection />
       <TestimonialsSection />
       <ContactSection />

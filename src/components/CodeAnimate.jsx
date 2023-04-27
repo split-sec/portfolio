@@ -8,7 +8,7 @@ import cross from '../assets/cross.svg';
 
 import ChangingCode from './ChangingCode/ChangingCode';
 
-export default function CodeAnimate() {
+export default function CodeAnimate({theme}) {
     const code =
 `e xport default function App() {
     return (
