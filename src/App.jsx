@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import Navbar from './components/Navbar';
 import BodySection from './components/BodySection';
-import ProjectsSection from './components/ProjectsSection';
+import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import TestimonialsSection from './components/TestimonialsSection';
 
@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar theme={theme} setTheme={setTheme}/>
       <BodySection theme={theme}/>
-      <ProjectsSection />
+      <AboutSection />
       <TestimonialsSection />
       <ContactSection />
     </>

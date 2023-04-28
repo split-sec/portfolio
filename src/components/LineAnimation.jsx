@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function LineAnimation({ timing=500, children }) {
+export default function LineAnimation({ timing=500, children, className }) {
     const [ hover, setHover ]= useState(false);
 
     const style = {
@@ -21,7 +21,7 @@ export default function LineAnimation({ timing=500, children }) {
     }
 
     return (
-        <span onMouseEnter={trigger} onMouseLeave={trigger}>
+        <span onMouseEnter={trigger} onMouseLeave={trigger} className={className}>
             {children}
             <div style={style}></div>
         </span>
